@@ -32,6 +32,7 @@ input.contact {
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
+  height: 600px;
 }
 
 .contact__box {

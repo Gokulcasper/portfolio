@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
-import logo from "./img/logo.png";
+import logo from "./img/logo.jpg";
 
 function Home() {
   // fixed Header
@@ -9,7 +9,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+  const [show, setShow] = useState(true);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -26,14 +26,14 @@ function Home() {
                 <li className="nav__items mx__15">About</li>
               </a>
               <a href="#Services">
-                <li className="nav__items mx__15">Services</li>
+                <li className="nav__items mx__15">Skills</li>
               </a>
               <a href="#Portfolio">
                 <li className="nav__items mx__15">Portfolio</li>
               </a>
-              <a href="#Blog">
+              {/* <a href="#Blog">
                 <li className="nav__items mx__15">Blog</li>
-              </a>
+              </a> */}
               <a href="#Contact">
                 <li className="nav__items mx__15">Contact</li>
               </a>
@@ -55,39 +55,38 @@ function Home() {
               />
             </svg>
           </div>
-          {show ?(
-          <div className="sideNavbar">
+          {show ? (
+            <div className="sideNavbar">
               <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <a href="#home">Home</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#about">About</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#services">Services</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#blog">Blog</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#contact">Contact</a>
-            </li>
+                <li className="sideNavbar">
+                  <a href="#home">Home</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#about">About</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#services">Skills</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                {/* <li className="sideNavbar">
+                  <a href="#blog">Blog</a>
+                </li> */}
+                <li className="sideNavbar">
+                  <a href="#contact">Contact</a>
+                </li>
               </ul>
-          </div>
-           ) : null}
+            </div>
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Jone Doe</h2>
-              <h3 className="home__text sweet pz__10">JS Developer.</h3>
-              <h4 className="home__text pz__10">based in USA.</h4>
+              <h2 className="home__text pz__10">Mr.Gokulraj P</h2>
+              <h4 className="home__text pz__10">I'm a passionate <h3 className="home__text sweet pz__10">Web Developer</h3> from India</h4>
             </div>
           </div>
         </div>

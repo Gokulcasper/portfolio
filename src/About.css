@@ -13,6 +13,7 @@ h1.about__heading {
   text-align: start;
   font-family: Montserrat, sans-serif;
   font-size: 60px;
+  margin-top: 50px;
 }
 button.about.btn.pointer {
   text-transform: capitalize;
@@ -45,7 +46,7 @@ a.bottom__to__top.active {
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .p__color {
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
 }
 @media only screen and (max-width: 425px) {

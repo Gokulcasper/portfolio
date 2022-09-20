@@ -6,6 +6,16 @@
   background-size: cover;
   height: 100vh;
 }
+
+.logo > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
 li.nav__items {
   font-size: 18px;
   padding-bottom: 15px;

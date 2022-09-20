@@ -25,7 +25,7 @@
 
 li.nav__items {
   font-size: 18px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 /* .navigation ul li::after {
@@ -38,18 +38,24 @@ li.nav__items {
   bottom: -6px;
 } */
 
-.ul .li {
+.d__flex .mx__15 {
   position: relative;
 }
 
-.ul .li::after {
+.d__flex .mx__15::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  width: 0%;
   height: 1px;
   background: #f9004d;
+  transition: 0.3s ease-out;
+}
+
+.d__flex .mx__15:hover::after {
+  left: 0;
+  width: 100%;
 }
 
 .home__content {

@@ -34,9 +34,9 @@ function About() {
                 <a href="#">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                <a href="#">
+                {/* <a href="#">
                   <button className="about btn pointer">Hire Me</button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

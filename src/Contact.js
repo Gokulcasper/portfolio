@@ -22,10 +22,10 @@ function Contact() {
                         </div>
                         <>
                             <div className="input__box">
-                                <input type="text" className="contact name" placeholder="Your name *" />
-                                <input type="text" className="contact email" placeholder="Your Email *" />
-                                <input type="text" className="contact subject" placeholder="Write a Subject" />
-                                <textarea name="message" id="message" placeholder="Write Your message"></textarea>
+                                <input type="text" className="contact name" placeholder="Your name *" name="Name" />
+                                <input type="text" className="contact email" placeholder="Your Email *" name="Email" />
+                                <input type="text" className="contact subject" placeholder="Write a Subject" name="Subject" />
+                                <textarea name="Message" id="message" placeholder="Write Your message" ></textarea>
                                 <button className="btn contact pointer" type="submit">Submit</button>
                             </div>
                         </>

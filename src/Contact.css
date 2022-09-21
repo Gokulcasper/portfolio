@@ -101,3 +101,10 @@ textarea#message {
 button.btn.contact.pointer {
   margin: 20px 0px;
 }
+
+#msg {
+  display: block;
+  margin-top: 12px;
+  font-size: 22px;
+  color: #03830e;
+}

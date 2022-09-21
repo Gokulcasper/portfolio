@@ -4,6 +4,23 @@ import contactImg from "./img/about-9.jpg"
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMailBulk } from "react-icons/fa"
 
 function Contact() {
+    const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwjdiA7t7Q-eSf-0YDX4pL-13vqlwOSISgf7VDjtbtK5Rr9na7rX9eD4xuPCD7Kg3O3/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg")
+
+    const handleSubmit = ((e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+                msg.innerHTML = "Your Message Sended To GOKULRAJ !!"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch((error) => console.error("Error!", error.message));
+    });
     return (
         <div className="contact component__space" id="Contact">
             <div className="row">
@@ -22,13 +39,14 @@ function Contact() {
                         </div>
                         <>
                             <div className="input__box">
-                                <form>
+                                <form name="submit-to-google-sheet" onSubmit={handleSubmit} >
                                     <input type="text" className="contact name" placeholder="Your name *" name="Name" required="true" />
                                     <input type="text" className="contact email" placeholder="Your Email *" name="Email" required="true" />
                                     <input type="text" className="contact subject" placeholder="Write a Subject" name="Subject" />
                                     <textarea name="Message" id="message" placeholder="Write Your message *" required="true"></textarea>
-                                    <button className="btn contact pointer" type="submit">Submit</button>
+                                    <button className="btn contact pointer" type="submit" >Submit</button>
                                 </form>
+                                <span id="msg"></span>
                             </div>
                         </>
                     </div>
@@ -42,3 +60,8 @@ function Contact() {
 }
 
 export default Contact
+
+// Deployed ID
+// AKfycbwjdiA7t7Q-eSf-0YDX4pL-13vqlwOSISgf7VDjtbtK5Rr9na7rX9eD4xuPCD7Kg3O3
+// URL
+// https://script.google.com/macros/s/AKfycbwjdiA7t7Q-eSf-0YDX4pL-13vqlwOSISgf7VDjtbtK5Rr9na7rX9eD4xuPCD7Kg3O3/exec

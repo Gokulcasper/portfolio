@@ -1,7 +1,8 @@
 import React from 'react';
 import './Contact.css';
 import contactImg from "./img/about-9.jpg"
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMailBulk } from "react-icons/fa"
+
 function Contact() {
     return (
         <div className="contact component__space" id="Contact">
@@ -11,8 +12,8 @@ function Contact() {
                         <div className="contact__meta">
                             <h1 className="hire__text">Contact Me</h1>
                             {/* <p className="hire__text white">I am available for freelance work. Connect with me via phone:</p> */}
-                            <p className="hire__text white" id="contact__under" ><strong>+91 7402415366</strong> </p>
-                            <p className="hire__text white" id="contact__under" > <strong>gokulcasper@gmail.com</strong></p>
+                            <p className="hire__text white " id="contact__under" ><FaPhone /><strong>+91 7402415366</strong> </p>
+                            <p className="hire__text white" id="contact__under" ><FaMailBulk /><strong>gokulcasper@gmail.com</strong></p>
                         </div>
                         <div className="contact__socialIcons">
                             <a href="https://github.com/Gokulcasper"><FaGithub /></a>
@@ -34,7 +35,7 @@ function Contact() {
                     <img src={contactImg} alt="" className="contact__img" />
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

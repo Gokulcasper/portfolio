@@ -9,9 +9,13 @@ p.hire__text {
   margin-top: 5px;
   font-size: 20px;
   line-height: 30px;
-  color: rgba(29, 29, 36, 0.75);
+  /* color: rgba(29, 29, 36, 0.75); */
   font-weight: 400;
   width: max-content;
+  background-color: #51525238;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flow-root;
 }
 input.contact {
   display: block;

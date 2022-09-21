@@ -55,7 +55,7 @@ function Home() {
               />
             </svg>
           </div>
-          {show ? (
+          {!show ? (
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">

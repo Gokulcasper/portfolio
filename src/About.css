@@ -43,10 +43,21 @@ a.bottom__to__top {
 a.bottom__to__top.active {
   display: flex;
 }
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .p__color {
-    font-size: 25px !important;
+    font-size: 15px !important;
   }
 }
 @media only screen and (max-width: 425px) {

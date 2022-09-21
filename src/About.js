@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="about component__space" id="About">
       <div className="container">
-        <div className="row">
+        <div className="row__about">
           <div className="col__2">
             <img src={aboutImg} alt="" className="about__img" />
           </div>

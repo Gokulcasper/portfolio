@@ -68,6 +68,27 @@ h1.home__text {
   letter-spacing: 3px;
   color: rgba(198, 201, 216, 0.75) !important;
 }
+
+.FaBar_bar {
+  color: aliceblue;
+  font-size: 30px;
+}
+.FaBar_close {
+  z-index: 1111;
+  color: aliceblue;
+  font-size: 30px;
+  transition: 0.2s linear;
+}
+
+#bar .FaBar_close {
+  transform: rotate(360deg);
+}
+
+.FaBar_bar .FaBar_close {
+  position: absolute;
+  cursor: pointer;
+}
+
 h2.home__text {
   font-size: 54px;
   line-height: 54px;
@@ -104,29 +125,73 @@ h4.home__text {
   z-index: 1000;
   width: 100%;
 }
+
 ul.sidebar.d__flex {
   flex-wrap: wrap;
-  height: 100%;
+  height: 56%;
   position: fixed;
   right: 0%;
-  background: #010101;
+  background: #010101c2;
   justify-content: center;
-  width: 300px;
+  width: 126px;
   top: 0%;
   flex-direction: column;
 }
+
+.ul__hover {
+  position: relative;
+}
+
+/* .ul__hover:hover .li__hover {
+  opacity: 0.2;
+} */
+
+.li__hover {
+  list-style: none;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.li__hover:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background: rgb(220 151 157 / 44%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.li__hover a:hover {
+  color: #f9004d;
+  opacity: 1;
+}
+
 li.sideNavbar {
   padding: 25px 30px;
 }
 
+li.sideNavbar a::after {
+  color: #f9004d;
+  font-size: 20px;
+}
+
 /* RESPONSIVE */
+@media only screen and (max-width: 2048px) {
+  .toggle__menu {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     justify-content: space-between;
   }
+
   .navigation.pxy__30 {
     display: none;
   }
+  .toggle__menu {
+    display: flex;
+  }
+
   h2.white.pz__10 {
     font-size: 50px !important;
   }
@@ -139,6 +204,7 @@ li.sideNavbar {
   h2.home__text.pz__10 {
     font-size: 32px;
   }
+
   h3.sweet.pz__10 {
     font-size: 40px;
   }

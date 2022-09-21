@@ -54,12 +54,25 @@ a.bottom__to__top.active {
   align-items: center;
 }
 
+.row__about {
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .p__color {
     font-size: 15px !important;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .row__about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   button.about.btn.pointer {
     text-transform: capitalize;

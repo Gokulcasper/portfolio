@@ -6,9 +6,10 @@ body {
 
 .col__md__1 {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+
   width: 40%;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .col__md__2 {
@@ -16,12 +17,12 @@ body {
   /* flex-direction: column; */
   width: 40%;
   flex-wrap: wrap;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .progress__title {
   width: 100%;
-  height: 80px;
+  height: auto;
 }
 
 .progress__title h3 {
@@ -70,7 +71,7 @@ h1.heading {
   text-align: center;
   font-family: Poppins, sans-serif;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 p.heading.p__color {
   margin-bottom: 0;
@@ -110,13 +111,42 @@ h1.service__text {
   font-family: Poppins, sans-serif;
   padding: 10px 0px;
 }
+
+.row__about {
+  display: flex;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .service__box {
     padding: 32px;
   }
 }
-/* 
+
+@media only screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center; /* margin-left: 30px; */
+  }
+  .progress__title {
+    width: 250%;
+  }
+
+  .container {
+    width: 100%;
+    display: contents;
+    justify-content: center;
+  }
+  .col__md__1 {
+    width: 100%;
+  }
+
+  .col__md__2 {
+    width: 100%;
+  }
+}
+
 @-webkit-keyframes animate-positive {
   0% {
     width: 0;
@@ -126,4 +156,4 @@ h1.service__text {
   0% {
     width: 0;
   }
-} */
+}

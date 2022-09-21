@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Home.css";
 import logo from "./img/logo.jpg";
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+
 
 function Home() {
   // fixed Header
@@ -9,7 +12,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -41,40 +44,43 @@ function Home() {
           </div>
           {/* Toogle Menu */}
           <div className="toggle__menu">
-            <svg onClick={() => setShow(!show)}
+            {/* <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
               class="bi bi-justify white pointer"
               viewBox="0 0 16 16"
-            >
-              <path
+            > */}
+            {!show ? (
+              <FaIcons.FaBars onClick={() => setShow(!show)} className="FaBar_bar" id="bar" />) :
+              <AiIcons.AiOutlineClose className="FaBar_close" id="bar" onClick={() => setShow(!show)} />}
+            {/* <path
                 fill-rule="evenodd"
                 d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
+              /> */}
+            {/* </svg> */}
           </div>
-          {!show ? (
+          {show ? (
             <div className="sideNavbar">
-              <ul className="sidebar d__flex">
-                <li className="sideNavbar">
-                  <a href="#home">Home</a>
+              <ul className="sidebar d__flex ul__hover">
+                <li className="sideNavbar li__hover">
+                  <a href="#Home">Home</a>
                 </li>
-                <li className="sideNavbar">
-                  <a href="#about">About</a>
+                <li className="sideNavbar li__hover">
+                  <a href="#About">About</a>
                 </li>
-                <li className="sideNavbar">
-                  <a href="#services">Skills</a>
+                <li className="sideNavbar li__hover">
+                  <a href="#Services">Skills</a>
                 </li>
-                <li className="sideNavbar">
-                  <a href="#portfolio">Portfolio</a>
+                <li className="sideNavbar li__hover">
+                  <a href="#Portfolio">Portfolio</a>
                 </li>
                 {/* <li className="sideNavbar">
                   <a href="#blog">Blog</a>
                 </li> */}
-                <li className="sideNavbar">
-                  <a href="#contact">Contact</a>
+                <li className="sideNavbar li__hover">
+                  <a href="#Contact">Contact</a>
                 </li>
               </ul>
             </div>

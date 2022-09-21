@@ -75,12 +75,7 @@ p {
 }
 .row {
   display: flex;
-  /* width: 100%; */
-  /* flex-wrap: wrap; */
-  /* overflow: hidden; */
-  /* align-items: flex-start; */
   justify-content: center;
-  align-items: center;
 }
 .col__2 {
   max-width: 50%;
@@ -153,7 +148,7 @@ button.about.btn.pointer:hover {
 }
 @media only screen and (max-width: 768px) {
   .col__3 {
-    max-width: 50%;
+    max-width: 70%;
   }
 }
 @media only screen and (max-width: 425px) {

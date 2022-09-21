@@ -18,7 +18,7 @@ function Contact() {
                         <div className="contact__socialIcons">
                             <a href="https://github.com/Gokulcasper"><FaGithub /></a>
                             <a href="https://www.linkedin.com/in/gokulraj-p-8a426820a/"><FaLinkedin /></a>
-                            <a href="#"><FaEnvelope /></a>
+                            <a href="mailto:gokulcasper@gmail.com"><FaEnvelope /></a>
                         </div>
                         <>
                             <div className="input__box">

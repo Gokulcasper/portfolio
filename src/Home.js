@@ -3,6 +3,7 @@ import "./Home.css";
 import logo from "./img/logo.jpg";
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMailBulk } from "react-icons/fa"
 
 
 function Home() {
@@ -93,6 +94,11 @@ function Home() {
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
               <h2 className="home__text pz__10">Mr.Gokulraj P</h2>
               <h4 className="home__text pz__10">I'm a passionate <h3 className="home__text sweet pz__10">Web Developer</h3> from India</h4>
+            </div>
+            <div className="social_Icons">
+              <a href="https://github.com/Gokulcasper"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/gokulraj-p-8a426820a/"><FaLinkedin /></a>
+              <a href="mailto:gokulcasper@gmail.com"><FaEnvelope /></a>
             </div>
           </div>
         </div>

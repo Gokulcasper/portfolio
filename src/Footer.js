@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+// import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 function Footer() {
   return (
@@ -9,9 +9,9 @@ function Footer() {
       style={{ padding: "10px 20px", zIndex: "100" }}
     >
       {/* <img src={footerImg} alt="" className="footer__img pointer" /> */}
-      <div className="contact__socialIcons">
+      {/* <div className="contact__socialIcons">
         <a href="https://github.com/Gokulcasper"><FaGithub /></a>
-      </div>
+      </div> */}
       <span
         className="copyright"
         style={{ color: "#c6c9d8", fontSize: "14px", opacity: "0.75", marginLeft: "5px" }}

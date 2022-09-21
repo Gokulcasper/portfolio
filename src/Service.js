@@ -17,7 +17,7 @@ function Service() {
 
       <div className="container">
         <div className="row">
-          <div className="col__md__1">
+          <div className="col__md__1" data-aos="flip-left">
 
             <div class="progress__title">
               <h3>React</h3>
@@ -66,7 +66,7 @@ function Service() {
 
           </div>
 
-          <div className="col__md__2">
+          <div className="col__md__2" data-aos="flip-right">
 
             <div class="progress__title">
               <h3>MongoDB</h3>

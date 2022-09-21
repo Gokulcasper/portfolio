@@ -107,6 +107,27 @@ h4.home__text {
   line-height: 40px;
   font-family: Montserrat, sans-serif;
 }
+
+.social_Icons {
+  display: flex;
+  gap: 33px;
+  margin-top: 5px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.social_Icons a {
+  text-decoration: none;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social_Icons a:hover {
+  color: #f9004d;
+  transform: translateY(-5px);
+}
+
 .header {
   transition: 0.4s all ease;
 }
@@ -118,6 +139,13 @@ h4.home__text {
   background-color: #191919;
   height: 80px;
 }
+
+.header.d__flex.align__items__center.pxy__30 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
 .toggle__menu {
   display: flex;
   justify-content: flex-end;

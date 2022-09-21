@@ -20,7 +20,7 @@ function Project() {
             <div className="container">
                 <div className="row__project row__flex">
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-up">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -37,7 +37,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-up">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -54,7 +54,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-up">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -71,7 +71,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-down">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -88,7 +88,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-down">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -105,7 +105,7 @@ function Project() {
                     </div>
 
 
-                    <div className="col__3">
+                    <div className="col__3" data-aos="flip-down">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">

@@ -13,7 +13,7 @@ function Contact() {
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
             .then((response) => {
-                msg.innerHTML = "Your Message Sended To GOKULRAJ !!"
+                msg.innerHTML = "Message Sended To RAJ !!"
                 setTimeout(function () {
                     msg.innerHTML = ""
                 }, 5000)

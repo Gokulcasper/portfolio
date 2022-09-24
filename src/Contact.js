@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css';
 import contactImg from "./img/about-9.jpg"
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMailBulk } from "react-icons/fa"
+import axios from 'axios';
 
 function Contact() {
     const scriptURL =
@@ -11,9 +12,11 @@ function Contact() {
 
     const handleSubmit = ((e) => {
         e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        axios.post(scriptURL, new FormData(form))
+            // fetch(scriptURL, { method: "POST", body: new FormData(form) })
             .then((response) => {
-                msg.innerHTML = "Message Sended To RAJ !!"
+                console.log(response)
+                msg.innerHTML = "Message Sended To RAJ! "
                 setTimeout(function () {
                     msg.innerHTML = ""
                 }, 5000)

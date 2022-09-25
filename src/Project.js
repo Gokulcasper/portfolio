@@ -1,9 +1,12 @@
 import React from "react";
 import "./Project.css";
-import Project1 from './img/portfolio-1.jpg';
-import Project2 from './img/portfolio-2.jpg';
-import Project3 from './img/portfolio-3.jpg';
-import Project4 from './img/portfolio-4.jpg';
+import blog from './img/Blog.png';
+import hotel from './img/Hotel.png';
+import ecommerce from './img/ecommerce.png';
+import car from './img/car.png';
+import coffee from './img/coffee.png';
+import watch from './img/watch.png';
+
 
 function Project() {
     return (
@@ -24,7 +27,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project1} alt="" className="project__img" />
+                                    <img src={blog} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -41,7 +44,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project2} alt="" className="project__img" />
+                                    <img src={hotel} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -58,7 +61,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project3} alt="" className="project__img" />
+                                    <img src={ecommerce} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -75,7 +78,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project4} alt="" className="project__img" />
+                                    <img src={car} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -92,7 +95,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project3} alt="" className="project__img" />
+                                    <img src={coffee} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -109,7 +112,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Project4} alt="" className="project__img" />
+                                    <img src={watch} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>

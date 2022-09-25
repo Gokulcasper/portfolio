@@ -9,7 +9,6 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 import { useState, useRef } from "react";
-import axios from "axios";
 
 function Contact() {
   const formRef = useRef(null);
@@ -32,25 +31,6 @@ function Contact() {
       .catch((error) => console.error("Error!", error.message));
   };
 
-  // const scriptURL =
-  //     "https://script.google.com/macros/s/AKfycbwjdiA7t7Q-eSf-0YDX4pL-13vqlwOSISgf7VDjtbtK5Rr9na7rX9eD4xuPCD7Kg3O3/exec";
-  // const form = document.forms["submit-to-google-sheet"];
-  // const msg = document.getElementById("msg")
-
-  // const handleSubmit = ((e) => {
-  //     e.preventDefault();
-  //     axios.post(scriptURL, new FormData(form))
-  //         // fetch(scriptURL, { method: "POST", body: new FormData(form) })
-  //         .then((response) => {
-  //             console.log(response)
-  //             msg.innerHTML = "Message Sended To RAJ! "
-  //             setTimeout(function () {
-  //                 msg.innerHTML = ""
-  //             }, 5000)
-  //             form.reset()
-  //         })
-  //         .catch((error) => console.error("Error!", error.message));
-  // });
   return (
     <div className="contact component__space" id="Contact">
       <div className="row">

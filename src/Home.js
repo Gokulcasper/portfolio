@@ -3,7 +3,7 @@ import "./Home.css";
 import logo from "./img/logo.jpg";
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMailBulk } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 
 
 function Home() {

@@ -69,10 +69,13 @@ h4.project__text {
   padding-bottom: 20px;
 }
 a.project__btn {
-  padding: 12px 35px;
+  display: flex;
+  padding: 0px 4px;
   border: 2px solid #ffffff87;
   border-radius: 5px;
   transition: 0.4s ease;
+  align-items: center;
+  text-align: center;
 }
 a.project__btn:hover {
   background-color: #f9004d;
@@ -94,6 +97,26 @@ button.view__more:hover {
   background-color: #fff;
   border: 2px solid #f9004d;
   color: #f9004d !important;
+}
+
+.git__media {
+  display: flex;
+  gap: 33px;
+  margin-top: 5px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.git__media a {
+  text-decoration: none;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.git__media a:hover {
+  color: #f9004d;
+  transform: translateY(-5px);
 }
 
 /* RESPONSIVE */

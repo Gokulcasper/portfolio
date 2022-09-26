@@ -6,6 +6,9 @@ import ecommerce from './img/ecommerce.png';
 import car from './img/car.png';
 import coffee from './img/coffee.png';
 import watch from './img/watch.png';
+import {
+    FaGithub,
+} from "react-icons/fa";
 
 
 function Project() {
@@ -32,9 +35,16 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Blog Application</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/mern-blog-app" className="project__btn"><FaGithub /> For Client</a>
+                                    <a href="https://github.com/Gokulcasper/Blog-api" className="project__btn"><FaGithub /> For Server</a>
+                                </div>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -49,9 +59,13 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Hotel Booking</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn"><FaGithub /> For Client</a>
+                                    <a href="https://github.com/Gokulcasper/Hotel-Booking" className="project__btn"><FaGithub /> For Server</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -66,9 +80,13 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Ecommerce</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/Ecommerce" className="project__btn"><FaGithub /> View GitHub</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,9 +101,13 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Car ShowRoom</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/Car-Sell" className="project__btn"><FaGithub /> View GitHub</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -100,9 +122,12 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Coffee Shop</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/Coffee-Shop" className="project__btn"><FaGithub /> View GitHub</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,9 +142,13 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Development</h5>
+                                <h5 className="project__text">Watch Store</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
-                                <a href="/" className="project__btn">View Details</a>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/Watch-store" className="project__btn"><FaGithub /> View GitHub</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>

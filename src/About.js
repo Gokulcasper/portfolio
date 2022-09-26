@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/39866.jpg";
-import resume from "../src/img/Muthu_Manikandan_T_web.pdf"
+import resume from "../src/img/Raj Resume.pdf"
 import { FaDownload } from "react-icons/fa"
 
 

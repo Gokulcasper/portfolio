@@ -62,8 +62,8 @@ function Project() {
                                 <h5 className="project__text">Hotel Booking</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn"><FaGithub /> For Client</a>
+                                    <a href="https://raj-hotel-booking.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://github.com/Gokulcasper/Client" className="project__btn"><FaGithub /> For Client</a>
                                     <a href="https://github.com/Gokulcasper/Hotel-Booking" className="project__btn"><FaGithub /> For Server</a>
                                 </div>
                             </div>

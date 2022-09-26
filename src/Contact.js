@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import contactImg from "./img/about-9.jpg";
+// import contactImg from "./img/about-9.jpg";
 import {
   FaGithub,
   FaLinkedin,
@@ -102,9 +102,9 @@ function Contact() {
             </>
           </div>
         </div>
-        <div className="col__2">
-          <img src={contactImg} alt="" className="contact__img" />
-        </div>
+        {/* <div className="col__2">
+          <img src={contactImg} alt="" className="contact__img" /> 
+        </div>  */}
       </div>
     </div>
   );

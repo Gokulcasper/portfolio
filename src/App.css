@@ -80,7 +80,7 @@ p {
 .col__2 {
   max-width: 50%;
   display: flex;
-  padding: 20px;
+  padding: 0px 20px;
   justify-content: center;
   flex-direction: column;
 }
@@ -115,6 +115,7 @@ input {
   color: rgba(198, 201, 216, 0.75);
 }
 button.btn {
+  padding: 15px 20px;
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
@@ -122,11 +123,11 @@ button.btn {
   background-color: #f9004d;
   color: #fff !important;
   text-transform: uppercase;
+  display: flex;
   letter-spacing: 2px;
   transition: 0.4s all ease;
-  height: 50px;
-  width: 180px;
-  margin: 0px 10px;
+  justify-content: center;
+  align-items: center;
 }
 .p__color {
   color: rgba(198, 201, 216, 0.75);

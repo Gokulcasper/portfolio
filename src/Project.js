@@ -145,7 +145,7 @@ function Project() {
                                 <h5 className="project__text">Watch Store</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://online-watch-store.netlify.app/" className="project__btn">View Project</a>
                                     <a href="https://github.com/Gokulcasper/Watch-store" className="project__btn"><FaGithub /> View GitHub</a>
 
                                 </div>

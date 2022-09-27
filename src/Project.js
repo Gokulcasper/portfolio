@@ -83,7 +83,7 @@ function Project() {
                                 <h5 className="project__text">Ecommerce</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://online-shoes-shop-e-commerce.netlify.app/" className="project__btn">View Project</a>
                                     <a href="https://github.com/Gokulcasper/Ecommerce" className="project__btn"><FaGithub /> View GitHub</a>
 
                                 </div>
@@ -104,7 +104,7 @@ function Project() {
                                 <h5 className="project__text">Car ShowRoom</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://gokul-car-showroom.netlify.app/" className="project__btn">View Project</a>
                                     <a href="https://github.com/Gokulcasper/Car-Sell" className="project__btn"><FaGithub /> View GitHub</a>
 
                                 </div>
@@ -125,7 +125,7 @@ function Project() {
                                 <h5 className="project__text">Coffee Shop</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://raj-blog-mern.netlify.app/" className="project__btn">View Project</a>
+                                    <a href="https://gokul-coffee-shop.netlify.app/" className="project__btn">View Project</a>
                                     <a href="https://github.com/Gokulcasper/Coffee-Shop" className="project__btn"><FaGithub /> View GitHub</a>
                                 </div>
                             </div>

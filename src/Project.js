@@ -80,7 +80,7 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">E-commerce</h5>
+                                <h5 className="project__text">Ecommerce</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
                                     <a href="https://online-shoes-shop-e-commerce.netlify.app/" className="project__btn">View Project</a>

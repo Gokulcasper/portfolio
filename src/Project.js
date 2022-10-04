@@ -16,12 +16,7 @@ function Project() {
         <div className="project component__space" id="Portfolio">
             <div className="heading">
                 <h1 className="heading">My Latest Project</h1>
-                <p className="heading p__color">
-                    There are many variations of passages of Lorem Ipsum available,
-                </p>
-                <p className="heading p__color">
-                    but the majority have suffered alteration.
-                </p>
+
             </div>
             <div className="container">
                 <div className="row__project row__flex">

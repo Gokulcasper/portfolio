@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/39866.jpg";
-import resume from "../src/img/Raj Resume.pdf"
+// import resume from "../src/img/Raj Resume.pdf"
 import { FaDownload } from "react-icons/fa"
 
 
@@ -35,7 +35,8 @@ function About() {
                 but the majority have suffered in some form, by injected humour,
               </p> */}
               <div className="about__button d__flex align__items__center">
-                <a href={resume}>
+                {/* {resume} */}
+                <a href="https://drive.google.com/file/d/1U7UtVarQwFvUV4HEOA1fzAOTsHU3juM6/view?usp=sharing" target="blank">
                   <button className="about btn pointer"><FaDownload />Download CV</button>
                 </a>
                 {/* <a href="#">
